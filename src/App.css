@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.sessao{
+  display: flex;
+  flex-direction: row;
+  padding: 20px 50px;
+  justify-content: space-around;
+}
+
+.galeria img{
+  margin: 5px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.galeria{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+header{
+  padding: 20px 50px;
+}
+
+header img{
+  width: 60px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 600px){
+  .sessao{
+    flex-direction: column;
+  }
+
+.sessao img{
+  width: 80%;
+  }
+}
